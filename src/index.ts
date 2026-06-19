@@ -12,3 +12,4 @@ export { sushiSwapV2Module } from '@src/dex-protocols/sushi-swap/v2';
 export { sushiSwapV3Module } from '@src/dex-protocols/sushi-swap/v3';
 export { uniswapV2Module } from '@src/dex-protocols/uniswap/v2';
 export { uniswapV3Module } from '@src/dex-protocols/uniswap/v3';
+export { uniswapV4Module } from '@src/dex-protocols/uniswap/v4';

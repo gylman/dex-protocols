@@ -2,7 +2,7 @@ import { AMPLIFICATION_PRECISION, CURVE_FEE_DENOMINATOR } from '@src/dex-protoco
 import { createReducer as createStableSwapReducer } from '@src/dex-protocols/core/stableswap/reducer';
 
 import { resolveEkuboV3Domain } from './domain';
-import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../tick-math';
+import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../common/tick-math';
 
 import type {
   EkuboV3PoolInfo,

@@ -1,4 +1,4 @@
-import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../tick-math';
+import { buildTickBitmap, clearInitializedInBitmap, setInitializedInBitmap } from '../common/tick-math';
 
 import type { EkuboV2PoolInfo, EkuboV2PoolState, EkuboV2PoolUpdate, EkuboV2PoolRuntime } from './types';
 
